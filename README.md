@@ -12,7 +12,8 @@ The simulator is [here](https://github.com/alexandred/VoodooI2C/tree/native/Mult
 1. Files to RE:
 * /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseHIDEventDriver.kext/Contents/MacOS/AppleTopCaseHIDEventDriver
 * /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
-2. More coming...
+2. [MT2 Report structure](RE/Report%20structure.md)
+3. More coming soon...
 
 # References:
 1. [FingerMgmt](https://github.com/jnordberg/FingerMgmt): used for tracking fingers input by utilizing MultitouchSupport.framework
