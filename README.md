@@ -5,22 +5,22 @@ VoodooI2C uses [CSGesture](https://github.com/alexandred/VoodooI2C/tree/master/M
 
 To simulate Magic Trackpad 2, we need to understand Magic Trackpad 2's protocol and how macOS handles it. Reverse engineering is needed.
 
-# Achievements:
+# Achievements
 The simulator is [here](https://github.com/alexandred/VoodooI2C/tree/native/Multitouch%20Support/Native), currently most gestures work well
 
-# Reverse Engineering:
+# Reverse Engineering
 1. Files to RE:
 * /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseHIDEventDriver.kext/Contents/MacOS/AppleTopCaseHIDEventDriver
 * /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
 2. [MT2 Report structure](RE/Report%20structure.md)
 3. [Logging data from MT2](RE/Logging%20data.md)
-4. More coming soon...
+4. More coming...
 
-# References:
+# References
 1. [FingerMgmt](https://github.com/jnordberg/FingerMgmt): used for tracking fingers input by utilizing MultitouchSupport.framework
 2. [VoodooI2C's Gitter](https://gitter.im/alexandred/VoodooI2C/archives/2017/11/18): I think this is when the authors of VoodooI2C began to reverse engineer MT2
 
-# Credits:
+# Credits
 * [alexandred](https://github.com/alexandred)
 * [CoolStar](https://github.com/coolstar)
 * [blankmac](https://github.com/blankmac)
