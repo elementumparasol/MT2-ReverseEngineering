@@ -1,3 +1,5 @@
+### *THIS PROJECT IS NO LONGER UPDATED*
+
 # Background
 I'm a huge fan of macOS, but I couldn't afford an expensive MacBook, so I chose an ASUS Zenbook one, and managed to get macOS running stable on it (Hackintosh). The only thing I don't like is trackpad, not because the hardware is bad, actually it's working very well in Windows, but because there were no official driver for macOS, so I have to use alexandred's [VoodooI2C](https://github.com/alexandred/VoodooI2C).
 
